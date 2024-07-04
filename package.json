@@ -11,5 +11,8 @@
     "react-scripts": "^5.0.1",
     "react-router-dom": "^5.2.0",
     "react-icons": "^4.2.0"
+  },
+  "resolutions": {
+    "webpack": "5.64.4"
   }
 }
