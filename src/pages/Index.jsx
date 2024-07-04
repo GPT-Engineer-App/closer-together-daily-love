@@ -10,7 +10,7 @@ const Index = () => {
           <h1 className="text-2xl font-semibold">Dashboard</h1>
           <div className="relative">
             <img src="/placeholder.svg" alt="user avatar" className="mx-auto object-cover w-10 h-10 rounded-full" />
-            <div className="absolute right-0 mt-2 w-48 bg-white shadow-lg rounded-lg py-2">
+            <div className="absolute right-0 mt-2 w-48 bg-white shadow-lg rounded-lg py-2 hidden">
               <a href="#" className="block px-4 py-2 text-gray-800 hover:bg-gray-200">Profile</a>
               <a href="#" className="block px-4 py-2 text-gray-800 hover:bg-gray-200">Settings</a>
               <a href="#" className="block px-4 py-2 text-gray-800 hover:bg-gray-200">Logout</a>

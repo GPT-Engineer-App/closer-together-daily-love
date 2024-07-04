@@ -6,7 +6,7 @@ function App() {
   return (
     <Router>
       <Switch>
-        <Route path="/" component={Index} />
+        <Route exact path="/" component={Index} />
       </Switch>
     </Router>
   );
